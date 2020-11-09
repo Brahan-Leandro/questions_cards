@@ -22,10 +22,17 @@ const quizData = [
 		correct: 'b'
 	}, {
 		question: 'What does HTML stand for'
-		a: '',
-		b: '',
-		c: '',
-		d: '',
-		correct: ''
+		a: 'Hypertext Markup languege',
+		b: 'Cascading Style Sheet',
+		c: 'Jason Object Notation',
+		d: 'Helicopters Terminals Motorboats',
+		correct: 'a'
+	}, {
+		question: 'What year was JavaScript launched?',
+		a: '1996',
+		b: '1995',
+		c: '1994',
+		d: 'none of the above',
+		correct: 'd'
 	}
 ]
