@@ -36,3 +36,22 @@ const quizData = [
 		correct: 'd'
 	}
 ]
+
+
+const questionEl = document.getElementByid('question')
+const a_text = document.getElementByid('a_text')
+const b_text = document.getElementByid('b_text')
+const c_text = document.getElementByid('c_text')
+const d_text = document.getElementByid('d_text')
+
+let currentQuestion = 0;
+
+loadQuiz();
+
+function loadQuiz() {
+	const currentQuestionData = quizData[currentQuestion];
+
+	questionEl.innerText = currentQuestionData.question	
+
+	currentQuestion++
+}
